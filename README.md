@@ -6,7 +6,7 @@
 
 > A tool to predict the sequencing library type from the base composition of a supplied FastQ file.
 
-For further information, detailed installation instructions and FAQs visit the [documentation pages](https://kartva.github.io/Librarian/).
+For further information, detailed installation instructions and FAQs visit the [documentation pages](https://kartva.github.io/Librarian/). For an overview of some of the technical work that went into creating Librarian, have a look at [a presentation I made when interviewing at Neuralink](Librarian Technical Presentation.pdf)
 
 Reads from high throughput sequencing experiments show base compositions that are characteristic for their library type. For example, data from ATAC-seq, RNA-seq and WGBS-seq libraries show markedly different distributions of G, A, C and T across the reads. Librarian makes use of different composition signatures for library quality control: Test library compositions are extracted and compared against previously published data sets from **mouse** and **human**.
 
